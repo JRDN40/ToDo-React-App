@@ -1,0 +1,25 @@
+{
+  "name": "todo-react-app",
+  "version": "1.0.0",
+  "description": "MERN-Todo-App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JRDN40/ToDo-React-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JRDN40/ToDo-React-App/issues"
+  },
+  "homepage": "https://github.com/JRDN40/ToDo-React-App#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
+  }
+}
