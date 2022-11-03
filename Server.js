@@ -33,7 +33,7 @@ app.delete('/todo/delete/:id', async (req, res) => {
     const result = await todo.findByIdAndDelete(req.params.id);
     res.json(result);
 })
-app.put('/todo/complete/:id', async (req, res) => {
+app.get('/todo/complete/:id', async (req, res) => {
     const completed = await todo.findById(req.params.id);
     completed.complete = !completed.complete;
     completed.save();
